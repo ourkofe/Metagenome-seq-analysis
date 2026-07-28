@@ -1,0 +1,44 @@
+# 원본 시퀀싱 데이터 / DB / 대용량 파일은 올리지 않음
+*.fastq
+*.fastq.gz
+*.zip
+*.qza
+*.qzv
+!figures/**
+
+.DS_Store
+ 
+# 원본 시퀀싱 데이터 / DB / 대용량 파일
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.zip
+*.tar.gz
+*.qza
+*.qzv
+!figures/**
+ 
+# 서버 경로/계정정보가 들어있는 매니페스트 파일
+filepath
+*.manifest
+ 
+# 다운스트림 통계/노트북 작업 흔적
+.Rhistory
+.Rproj.user/
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+ 
+# 로그 / 임시파일
+*.log
+*.tmp
+ 
+# 인증/설정 관련
+.env
+*.pem
+.netrc
+ 
+# OS
+.DS_Store
+Thumbs.db
